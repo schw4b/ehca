@@ -10,8 +10,9 @@ MATLAB command window.
 
 >> ehca
 
-From the GUI, a *.mat file can be loaded, which contains your data. Example data
-is contained in ehca_demo.mat. The data file requires the following specification:
+From the GUI, a *.mat file can be loaded, which contains your data. Example
+data is contained in ehca_demo.mat. The data file requires the following
+specification:
 
 There has to be a struct variable named 'segments', which contains the cells
 'time', 'head', 'eye' and 'gaze', which contain the data for each trial. Here,
@@ -35,13 +36,13 @@ To access the data, type
 
 >> global ehdata
 
-The ehdata is a global variable that contains the parameters detected (ehdata.param).
-However, with some of the trials, parameter detection may fail. Therefore, parameters
-can be accessed to replace wrong parameters with NaN values before subject statistics
-are performed.
+The ehdata is a global variable that contains the parameters detected
+(ehdata.param). However, with some of the trials, parameter detection may fail.
+Therefore, parameters can be accessed to replace wrong parameters with NaN
+values before subject statistics are performed.
 
-It is recommended to save the cleaned up values in a different variable, since a new
-parameter detection will just overwrite ehdata.param.
+It is recommended to save the cleaned up values in a different variable, since
+a new parameter detection will just overwrite ehdata.param.
 
 >> myparam = ehdata.param
 
