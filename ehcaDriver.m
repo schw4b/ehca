@@ -213,7 +213,7 @@ classdef ehcaDriver
             disp(['  ___| |__   ___ __ _     for MATLAB ', ehcaDriver.VERSION] );
             disp( ' / _ \ ''_ \ / __/ _` |' );
             disp( '|  __/ | | | (_| (_|      Copyright (C) 2011, 2012 Simon Schwab' );
-            disp( ' \___|_| |_|\___\__,_|    http://sourceforge.net/projects/ehca/' );
+            disp( ' \___|_| |_|\___\__,_|    https://github.com/schw4b/ehca/' );
             fprintf('\n');
             
         end
