@@ -4,6 +4,13 @@ EHCA is a MATLAB tool to analyze eye and head coordination. Parameters that
 are detected are such as eye delay, head offset, eye/head amplitudes and
 durations.
 
+The tool and a use case was published in a peer-reviewed scientific journal,
+please cite my work if you use my software:
+
+Schwab, S., Würmle, O., & Altorfer, A. (2012). Analysis of eye and head
+coordination in a visual peripheral recognition task. Journal of Eye
+Movement Research 5(2):3, 1-9.
+
 To access the tool from within MATLAB, you have to add the ehca folder to the
 MATLAB path (File... Set Path...). The tool is started by typing 'ehca' in the
 MATLAB command window.
