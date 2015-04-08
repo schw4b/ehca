@@ -1,4 +1,4 @@
-# EHCA - Eye and head coordination analyzer
+EHCA - Eye and head coordination analyzer
 
 EHCA is a MATLAB tool to analyze eye and head coordination. Parameters that
 are detected are such as eye delay, head offset, eye/head amplitudes and
